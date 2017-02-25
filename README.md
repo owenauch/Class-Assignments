@@ -7,7 +7,8 @@ Projects completed for class at Washington University in St. Louis
 ###Instructor:
 Dr. Bill Siever and Professor Douglas Shook
 ###Languages Used: 
-Java and Arduino C
+* Java
+* Arduino C
 <br />
 <br />
 ##CSE 247 -- Data Structures and Algorithms
@@ -22,9 +23,9 @@ Java
 ###Instructor:
 Dr. Todd Sproull
 ###Languages Used: 
-PHP
-MySQL
-Javascript
-Python
-HTML
-CSS
+* PHP
+* MySQL
+* Javascript
+* Python
+* HTML
+* CSS
