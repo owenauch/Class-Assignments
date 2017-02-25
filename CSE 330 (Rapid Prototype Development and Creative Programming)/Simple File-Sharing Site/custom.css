@@ -1,0 +1,16 @@
+body {
+    background-color: #ADD8E6;
+    font-family: helvetica;
+}
+
+button {
+    background-color: black;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+    line-height: 30px;
+}
+
+input {
+    color: black;
+}

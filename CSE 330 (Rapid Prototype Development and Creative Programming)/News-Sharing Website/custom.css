@@ -1,0 +1,54 @@
+body {
+    background-color: #ADD8E6;
+    font-family: helvetica;
+}
+
+button {
+    background-color: black;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+    line-height: 30px;
+}
+
+div.storyblock {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+
+}
+div#header {
+  padding: 1em;
+  color: white;
+  background-color: #016484;
+  clear: left;
+  text-align: center;
+}
+
+input {
+    color: black;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+#footer {
+  text-align: center;
+  padding: 1em;
+  clear:left;
+}
