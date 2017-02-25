@@ -16,10 +16,10 @@ Dr. Bill Siever and Professor Douglas Shook
 ###Instructor:
 Dr. Ron Cytron
 ###Languages Used: 
-Java
+* Java
+<br />
+<br />
 
-<br />
-<br />
 ##CSE 330 -- Rapid Prototype Development and Creative Programming
 ###Instructor:
 Dr. Todd Sproull
