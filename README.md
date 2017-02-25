@@ -16,3 +16,15 @@ Dr. Ron Cytron
 ###Languages Used: 
 Java
 
+<br />
+<br />
+##CSE 330 -- Rapid Prototype Development and Creative Programming
+###Instructor:
+Dr. Todd Sproull
+###Languages Used: 
+PHP
+MySQL
+Javascript
+Python
+HTML
+CSS
