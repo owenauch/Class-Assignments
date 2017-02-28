@@ -10,3 +10,6 @@ This project extended our knowledge of LAMP stack development to incorporate dat
 * HTML
 * CSS
 * Linux
+
+#### Other Contributors:
+Visaal Ambalam
