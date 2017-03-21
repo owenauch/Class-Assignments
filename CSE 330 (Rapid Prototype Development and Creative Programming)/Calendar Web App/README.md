@@ -14,3 +14,6 @@ without refreshing the page. The calendar uses Apache, PHP and MySQL on the back
 * Apache
 * Linux
 * AWS
+
+#### Other Contributors:
+Visaal Ambalam
