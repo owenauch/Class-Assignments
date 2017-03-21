@@ -1,0 +1,141 @@
+<!-- calendar html page (we out here) -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yo Schedule</title>
+	<link rel="shortcut icon" href="calendar_fav.ico" type="image/x-icon">
+	<link rel="icon" href="calendar_fav.ico" type="image/x-icon">
+	<script src="js/date_helper.js"></script>
+	<script src="js/month_scroll.js"></script>
+	<script src="js/user_authentication_functions.js"></script>
+	<script src="js/event_functions.js"></script>
+	<script src="js/index.js"></script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="calendar.css">
+
+</head>
+<body>
+	<!-- unneccesarily large title -->
+	<h1> WELCOME TO OWEN AND VISAAL'S CALENDAR </h1>
+	<!-- Navigation -->
+	<div class="nav" id="login_id">
+
+		<label>
+			<strong>
+				Login:
+		  </strong>
+	 </label>
+
+		<label>Username:</label>
+		<input type="text" name="username" id="login_username"/>
+		<label>Password:</label>
+		<input type="password" name="password" id="login_password"/>
+		<!-- need to send token with ajax -->
+		<input type="submit" value="Login" id="login_submit"/>
+
+
+	</div>
+	<div class="logout" id="logout">
+		<label id="username_logged_in"></label>
+		<input type="submit" value="Logout" id="logout_submit"/>
+	</div>
+
+	<div class="create_account_class" id="create_account_id">
+		<label><strong>Create User: </strong></label>
+
+		<label>Username:</label>
+		<input type="text" name="username" id="createuser_username"/>
+		<label>Password:</label>
+		<input type="password" name="password" id="createuser_password"/>
+		<label>Retype Password:</label>
+		<input type="password" name="retype_password" id="createuser_retype_password"/>
+		<input type="submit" value="Create User" id="createuser_submit"/>
+	</div>
+
+	<div id="categories">
+		<p><strong>Filter Events By Category:</strong></p>
+		<p>
+			<label>All <input id='all_label' type='radio' name='home_label_name' value='all' checked/></label>
+			<label>Work <input id='work_label' type='radio' name='home_label_name' value='work'/></label>
+			<label>Family <input id='family_label' type='radio' name='home_label_name' value='family'/></label>
+			<label>Random <input id='random_label' type='radio' name='home_label_name' value='random'/></label>
+		</p>
+	</div>
+
+
+	<div class="month_header">
+		<input type="submit" value="Previous" id="prev_month_btn"/>
+		<label id="month_year_label"></label>
+		<input type="submit" value="Next" id="next_month_btn"/>
+
+	</div>
+
+	<!-- Calendar Table -->
+
+	<table id='calendar-table'>
+		<tr id='days-label'>
+			<th>Sunday&nbsp;&nbsp;&nbsp;</th>
+			<th>Monday&nbsp;&nbsp;&nbsp;</th>
+			<th>Tuesday&nbsp;&nbsp;</th>
+			<th>Wednesday</th>
+			<th>Thursday&nbsp;</th>
+			<th>Friday&nbsp;&nbsp;&nbsp;</th>
+			<th>Saturday&nbsp;</th>
+		</tr>
+		<tr class='calendar-week' id='week-0'>
+			<td class='calendar-day'></td>
+			<td class='calendar-day'></td>
+			<td class='calendar-day'></td>
+			<td class='calendar-day'></td>
+			<td class='calendar-day'></td>
+			<td class='calendar-day'></td>
+			<td class='calendar-day'></td>
+		</tr>
+		<tr class='calendar-week' id='week-1'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+		</tr>
+		<tr class='calendar-week' id='week-2'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+		</tr>
+		<tr class='calendar-week' id='week-3'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+		</tr>
+		<tr class='calendar-week' id='week-4'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+		</tr>
+		<tr class='calendar-week' id='week-5'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+			<td class='calendar-day'>
+		</tr>
+</body>
+</html>
