@@ -9,6 +9,7 @@ This project applied the basics of web development with the LAMP stack to create
 * HTML
 * CSS
 * Linux
+* AWS
 
 #### Other Contributors:
 Visaal Ambalam
