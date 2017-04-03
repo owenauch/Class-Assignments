@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <script src="/socket.io/socket.io.js"></script>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+
+       <script src="functions.js"></script>
+       <script src="chat.js"></script>
+       <link rel="stylesheet" href="chat.css">
+       <title>Visaal and Owen's Chatroom</title>
+
+   </head>
+   <body>
+    <div class="container">
+     <header>
+       <h1> Owen and Visaal's Chat Client </h1>
+
+         <div class="nav">
+           <label>
+             <strong>
+               Create a chat server:
+             </strong>
+          </label>
+
+           <label>New Chatroom Name:</label>
+           <input type="text" name="new_chatroom_name" id="new_chatroom_name_input"/>
+           <label>Password (leave empty if no password):</label>
+           <input type="password" name="password" id="server_pwd_input"/>
+           <input type="hidden" value="0" id="hidden_id"/>
+           <!-- need to send token with ajax -->
+           <input type="submit" value="Create Chatroom" id="create_server_submit"/>
+
+         </div>
+     </header>
+     <nav>
+       <ul class="chatroom_list">
+          <li> </li>
+          <li><strong>Open Chatrooms:</strong></li>
+       </ul>
+     </nav>
+     <div id="chatboxes">
+       <!-- <article>
+         <h3 id="chatroom_name"> General Chatroom</h3>
+         <input type="text" id="message_input"/>
+         <button id="button">send</button>
+         <div id="chatlog"></div>
+         each chatroom should have a different chat log, and the connection
+         should emit to a different
+       </article> -->
+     </div>
+
+     <div id="admin_dialog" title="Admin Actions">
+         <h2>Would you like to temporarily kick or permanently ban this user from your chatroom?</h2>
+         <button id='kick_button'>Kick</button>
+         <button id='ban_button'>Ban</button>
+     </div>
+
+
+
+
+
+    <footer>
+        <p>Copyright &copy; Visaal and Owen</p>
+        <button id='logout'>Log Out</button>
+    </footer>
+  </div>
+
+
+
+
+
+
+   </body>
+</html>
