@@ -1,0 +1,15 @@
+<table class="table table-striped">
+    <h3>Reviews for {{coffee.brand}} {{coffee.name}}</h3>
+	<thead>
+		<th>Reviewer</th>
+		<th>Comment</th>
+		<th>Rating</th>
+	</thead>
+	<tbody>
+		<tr scope="row" ng-repeat="review in coffee.reviews">
+			<td>{{review.reviewer}}</td>
+			<td>{{review.comment}}</td>
+			<td><span class="glyphicon glyphicon-star" ng-repeat="star in [0,1,2,3,4] | limitTo:review.rating"></span></span></td>
+		</tr>
+	</tbody>
+</table>

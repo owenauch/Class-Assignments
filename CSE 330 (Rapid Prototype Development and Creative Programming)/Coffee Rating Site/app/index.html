@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" ng-app="coffeeApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Coffee Reviews</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+
+    <script src="app.js"></script>
+    <script src="app.config.js"></script>
+    <script src="coffees/coffees.module.js"></script>
+    <script src="coffees/coffees.component.js"></script>
+    <script src="reviews/reviews.module.js"></script>
+    <script src="reviews/reviews.component.js"></script>
+  </head>
+  <body>
+      <nav class="navbar navbar-default navbar-static-top" id='top'>
+        <a href="#!/coffees" class="navbar-left" id="home">Back to Home</a>
+      </nav>
+
+    <div class="main" ng-view></div>
+
+  </body>
+</html>

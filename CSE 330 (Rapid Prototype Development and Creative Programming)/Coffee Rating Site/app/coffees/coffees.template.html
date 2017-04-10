@@ -1,0 +1,21 @@
+<p>
+  <strong>Search:</strong>
+  <input ng-model="$ctrl.query" />
+</p>
+
+<table class="table table-striped table-hover">
+	<thead>
+		<th>Reviews</th>
+		<th>Brand</th>
+		<th>Name</th>
+		<th>Country of Origin</th>
+	</thead>
+	<tbody>
+		<tr scope="row" ng-repeat="coffee in coffees | filter:$ctrl.query | orderBy:'name'">
+			<td><a href="#!/reviews/{{coffee.id}}">Reviews</a></td>
+			<td>{{coffee.brand}}</td>
+			<td>{{coffee.name}}</td>
+			<td>{{coffee.country}}</td>
+		</tr>
+	</tbody>
+</table>
