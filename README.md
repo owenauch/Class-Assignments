@@ -44,3 +44,5 @@ An introduction to probability and statistics. Major topics include elementary p
 Dr. Jimin Ding
 ### Languages Used: 
 * R
+<br />
+<br />
