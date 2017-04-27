@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+  <title>Free Food Finder</title>
+</head>
+<body>
+  <div id="root"></div>
+
+	<!-- <form action="http://localhost:3001/new_event" method="POST">
+		<input type="text" placeholder="title" name="title">
+		<input type="date" name="date">
+		<input type="time" name="time">
+		<button type="submit">Submit</button>
+	</form> -->
+  <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<script>
+    $.get("get_events", function(json, status) {
+      //console.log(json);
+    });
+  </script>
+
+</body>
+</html>
