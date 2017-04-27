@@ -36,3 +36,11 @@ Dr. Todd Sproull
 * Python
 * HTML
 * CSS
+
+## Math 3200 -- Elementary to Intermediate Statistics and Data Analysis
+### Course Description:
+An introduction to probability and statistics. Major topics include elementary probability, special distributions, experimental design, exploratory data analysis, estimation of mean and proportion, hypothesis testing and confidence, regression, and analysis of variance. Emphasis is placed on development of statistical reasoning, basic analytic skills, and critical thinking in empirical research studies. The use of the statistical software R is integrated into lectures and weekly assignments. Required for students pursuing a major or minor in mathematics or wishing to take 400 level or above statistics courses. EXAMINATION SCHEDULE: Tests, at which attendance is required, will be given from 6:30 to 8:30 p.m. on September 12, October 10, and November 14. Prereqs: Math 132. Though Math 233 is not essential, it is recommended.
+### Instructor:
+Dr. Jimin Ding
+### Languages Used: 
+* R
