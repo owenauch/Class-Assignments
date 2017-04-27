@@ -36,6 +36,9 @@ Dr. Todd Sproull
 * Python
 * HTML
 * CSS
+<br />
+<br />
+
 
 ## Math 3200 -- Elementary to Intermediate Statistics and Data Analysis
 ### Course Description:
@@ -44,5 +47,3 @@ An introduction to probability and statistics. Major topics include elementary p
 Dr. Jimin Ding
 ### Languages Used: 
 * R
-<br />
-<br />
