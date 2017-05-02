@@ -22,7 +22,7 @@ class EventContainer extends Component{
       // get request to API for all events
       var xmlHttp = new XMLHttpRequest();
 
-      xmlHttp.open("GET", "http://localhost:3001/get_events", true);
+      xmlHttp.open("GET", "https://free-food-api.herokuapp.com/get_events", true);
       xmlHttp.addEventListener("load", function(event) {
           var newEvents = JSON.parse(event.target.response);
           var newEventsArr = Object.keys(newEvents).map(function(k){

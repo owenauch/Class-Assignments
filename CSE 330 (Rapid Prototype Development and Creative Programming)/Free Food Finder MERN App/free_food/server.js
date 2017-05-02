@@ -52,7 +52,7 @@ MongoClient.connect(db_url, (err, database) => {
 					return console.log(err);
 				}
 			console.log("Data saved to DB");
-			res.redirect('http://localhost:3000');
+			res.redirect('http://free-food-finder.s3-website.us-east-2.amazonaws.com/');
 			});
 		});
 

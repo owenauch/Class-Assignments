@@ -69,7 +69,7 @@ class EventInputForm extends React.Component {
 
     // post request to put in db
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("POST", "http://localhost:3001/new_event", true);
+    xmlHttp.open("POST", "https://free-food-api.herokuapp.com/new_event", true);
     xmlHttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xmlHttp.send(
       "title=" + title +
